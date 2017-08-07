@@ -6,9 +6,14 @@ body {
     background: url('../img/usf_art_3.png') no-repeat;
     font-family: 'Lato', sans-serif;
     background-size: cover;
-
 }
 
+.navbar-toggle{
+    background-color:#03ff86;
+}
+.navbar-toggle .icon-bar{
+    height: 4px;
+}
 /*    background: url('../img/usf_art.png') no-repeat;
     background-size: contain;
 
@@ -360,6 +365,7 @@ h2{
 
 .resources{
     padding: 6px;
+    text-align: center;
     float: left;
     margin-right: 10px;
     font-size: 1em;
@@ -377,41 +383,17 @@ h2{
 }
 /*medium devices*/
 @media (min-width: 992px) and (max-width: 1199px){
-    .navbar-brand h1{
-        color: white;
-        font-size: 2em;
-        font-weight: bold;
-        text-shadow: 1px 1px 1px #222;
-        margin-top: 0;
-        margin-bottom: 0px;
-        line-height: .75;
-    }
-    .navbar-brand p{
-        color: white;
-        font-size: .9em;
-        text-shadow: 1px 1px 1px #222;
-        margin-top: 20px;
-        margin-bottom: 0;
-        line-height: .75;
+    .navbar-brand h1{        
+        font-size: 1.8em;
+        line-height: 1;
     }   
     h4{
-    font-size: 1.3em;
+    font-size: 1.7em;
     height: 50%;
     line-height: 1.3;
     }
-    .row > a:nth-child(1) > h4,
-    .row > a:nth-child(2) > h4,
-    .row > a:last-child > h4{
-        font-size: 1.5em;
-        height: 50%;
-        margin-bottom: 10px;
-        line-height: 1.4;
-    }
-
-
     h5{
-        font-size: 1.3em;
-        color: #16b5f4;
+        font-size: 1.5em;
     }
     .row p{
         font-size: 1.1em;
@@ -422,7 +404,15 @@ h2{
         font-style: italic;
         color: gray;
     }
-
+    .resources{
+        font-size: .8em;
+        border-radius: 7px;
+        border: 1px solid white;
+        color: white;
+        background-color: #4531c7;
+        width: 80px;
+        max-height: 40px;
+    }
     /*.row div {
     margin-bottom: 15px;
     }*/
@@ -434,53 +424,24 @@ h2{
         height: 100px;
     }
     .navbar-brand h1{
-        color: white;
-        font-size: 2em;
-        font-weight: bold;
-        text-shadow: 1px 1px 1px #222;
-        margin-top: 0;
-        margin-bottom: 0px;
-        line-height: .75;
-    }
-    .navbar-brand p{
-        color: white;
-        font-size: .9em;
-        text-shadow: 1px 1px 1px #222;
-        margin-top: 20px;
-        margin-bottom: 0;
-        line-height: .75;
+        font-size: 1.8em;
+        line-height: 1;
     }
     .row a{
         height: 300px;
     }
     h4{
-    font-size: 1.3em;
+    font-size: 1.7em;
     height: 50%;
-    line-height: 1.5;
-    }
-    .row > a:nth-child(1) > h4,
-    .row > a:nth-child(2) > h4,
-    .row > a:last-child > h4{
-        font-size: 1.5em;
-        height: 50%;
-        margin-bottom: 10px;
-        line-height: 1.6;
+    line-height: 1;
     }
     h5{
-        font-size: 1.3em;
-        color: #16b5f4;
+        font-size: 1.5em;
     }
     .row p{
         font-size: 1.1em;
         color: gray;
-    }
-    .row span{
-        font-size: .9em;
-        font-style: italic;
-        color: gray;
-    }
-
-    
+    }    
 }
    /* .row div {
     margin-bottom: 15px;
@@ -497,55 +458,38 @@ h2{
         height: 80px;
     }
     .navbar-brand h1{
-        padding-top: 10px;
-        font-size: 7vw;
+        font-size: 1.4em;
+        line-height: 1;
     }
     .navbar-brand p{
         font-size: .8em;
         margin-top: 12px;
     }
     #collapsable-nav a{
-        font-size: .9em;
+        font-size: 1em;
         font-weight: bold;
     }
     #nav-list li:last-child a {
     margin: 0px 0px 0px 0px;
     }
-    #btitle > span{
-        font-size: 1em;
-        color: black;
-        background-color: white;
-        line-height: 1.5;
-        font-weight: bold;
-    }
+    .resources{
+        font-size: .8em;
+        margin-top: 7px;    
+        color: white;
+        background-color: #4531c7;
+        width: 80px;
+        max-height: 30px;
+    }    
     .row a{
-        height: 300px;
+        height: 200px;
     }
     h4{
-    font-size: 1.1em;
+    font-size: 1.6em;
     height: 50%;
     line-height: 1.3;
     }
-    .row > a:nth-child(1) > h4,
-    .row > a:nth-child(2) > h4,
-    .row > a:last-child > h4{
-        font-size: 1.1em;
-        height: 50%;
-        margin-bottom: 10px;
-        line-height: 1.3;
-    }
     h5{
-        font-size: 1em;
-        color: #16b5f4;
-    }
-    .row p{
-        font-size: .9em;
-        color: gray;
-    }
-    .row span{
-        font-size: .9em;
-        font-style: italic;
-        color: gray;
+        font-size: 1.2em;
     }
     
     /*#botones a { 
