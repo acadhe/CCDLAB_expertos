@@ -481,7 +481,7 @@ h2{
         max-height: 30px;
     }    
     .row a{
-        height: 200px;
+        max-height: 200px;
     }
     #expert {
         max-height: 200px;
